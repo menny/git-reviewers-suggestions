@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="git-blame-reviewers-suggestions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/git_blame_reviewers_suggestions_jar</output-path>
+    <root id="archive" name="git-blame-reviewers-suggestions.jar">
+      <element id="module-output" name="git-blame-reviewers-suggestions" />
+      <element id="library" level="project" name="Maven: org.eclipse.jgit:org.eclipse.jgit:3.7.0.201502260915-r" />
+    </root>
+  </artifact>
+</component>
