@@ -100,6 +100,8 @@ public class Main {
     }
 
     private static void addAuthorsFromBlame(Map<String, Integer> emailsOfReviewers, BlameResult blameResult, List<String> authorsToIgnore) {
+        if (blameResult == null || blameResult.getResultContents() == null) return;
+
         final int lines = blameResult.getResultContents().size();
         for (int line=0; line<lines; line++) {
             String email = blameResult.getSourceAuthor(line).getEmailAddress();
